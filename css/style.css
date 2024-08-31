@@ -1,0 +1,146 @@
+/* CSS Layout - float and clear */
+.main {
+  /* Demonstration of the different outline styles: */
+  /* dotted, dashed, solid, double, groove, ridge, inset, outset */
+  border: 5px solid red;
+  padding: 10px;
+}
+.clr {
+  clear: both;
+}
+.one {
+  width: 100px;
+  height: 100px;
+  background-color: #ff9d00;
+  /* float: left; */
+  float: right;
+}
+.two {
+  width: 100px;
+  height: 100px;
+  background-color: #00ff04;
+  float: left;
+}
+.three {
+  width: 100px;
+  height: 100px;
+  background-color: #e600ff;
+  float: left;
+}
+.four {
+  width: 100px;
+  height: 100px;
+  background-color: #a166ff;
+  float: left;
+}
+/* ===================================================== */
+.main1 {
+  border: 5px solid rgb(21, 135, 44);
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  /* flex-direction: row; /*the default remains */
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+  /* flex-wrap: nowrap; */
+  /* flex-wrap: wrap; */
+  /* flex-wrap: wrap-reverse; */
+  /* ======================================================== */
+  /* flex-grow: flex-direction / flex-wrap; */ /* SHORTHHAND */
+  /* flex-grow: row wrap;
+    flex-wrap: column wrap-reverse; */
+  /* ======================================================== */
+  /* justify-content: center; */
+  /* justify-content: end; */
+  /* justify-content: start; */
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  /* justify-content: flex-start; */
+}
+.one1 {
+  width: 100px;
+  height: 100px;
+  background-color: #ff9d00;
+}
+.two1 {
+  width: 100px;
+  height: 100px;
+  background-color: #00ff04;
+}
+.three1 {
+  width: 100px;
+  height: 100px;
+  background-color: #e600ff;
+}
+.four1 {
+  width: 100px;
+  height: 100px;
+  background-color: #a166ff;
+}
+/* ====================================================== */
+/* Align items work with single line  */
+.main2 {
+  border: 5px solid rgb(0, 55, 255);
+  padding: 10px;
+  margin-top: 10px;
+  height: 700px;
+  display: flex;
+  /* align-items: stretch; */
+  /* align-items: baseline; */
+}
+.one2 {
+  background-color: #fb0808;
+  padding: 20px;
+  font-size: 50px;
+}
+.two2 {
+  background-color: #db08fb;
+  padding: 20px;
+  font-size: 20px;
+}
+.three2 {
+  background-color: #65fc00;
+  padding: 20px;
+  font-size: 40px;
+}
+.four2 {
+  background-color: #fcd200;
+  padding: 20px;
+  font-size: 70px;
+}
+/* =============================================== */
+/* Align content work with multiline line   */
+.main3 {
+  border: 5px solid rgb(0, 55, 255);
+  padding: 10px;
+  margin-top: 10px;
+  height: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  /* align-content: start;
+  align-content: center;
+  align-content: end; */
+  /* align-content: space-between;
+  align-content: space-around; */
+}
+.one3 {
+  background-color: #fb0808;
+  width: 100px;
+  height: 100px;
+}
+.two3 {
+  width: 100px;
+  height: 100px;
+  background-color: #db08fb;
+}
+.three3 {
+  width: 100px;
+  height: 100px;
+  background-color: #65fc00;
+}
+.four3 {
+  width: 100px;
+  height: 100px;
+  background-color: #fcd200;
+}
